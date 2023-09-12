@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+h1{
+    padding: 5px;
+}
+
+.btn input{
+    background-color: #000;
+    margin-left: 45%;
+    color: #fff;
+    height: 30%;
+}
+
+.btn input:hover{
+    color: rgb(89, 66, 109);
+}
+
+.info{
+    position:absolute;
+    top:60%;
+    left:50%;
+    width: 600px;
+    padding: 40px;
+    transform: translate(-50% , -50%);
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 700px;
+    background: #fff;
+    margin: 0px auto 0px;
+    box-shadow: 1px 1px 2px #DAD7D7;
+    border-radius: 3px;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+    .section:last-of-type {
+        margin-bottom: 0px;
+    }
+
+    .section__title {
+        letter-spacing: 2px;
+        color: #54AFE4;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+
+    .section__list-item {
+        margin-bottom: 40px;
+    }
+
+    .section__list-item:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .left,
+    .right {
+        vertical-align: top;
+        display: inline-block;
+    }
+
+    .left {
+        width: 60%;
+    }
+
+    .right {
+        tex-align: right;
+        width: 39%;
+    }
+
+    .name {
+        font-weight: bold;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000;
+        font-style: italic;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: #000;
+    }
+
+    .skills {}
+
+    .skills__item {
+        margin-bottom: 10px;
+    }
+
+    .skills__item .right {
+        input {
+            display: none;
+        }
+
+        label {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: #C3DEF3;
+            border-radius: 20px;
+            margin-right: 3px;
+        }
+
+        input:checked+label {
+            background: #79A9CE;
+        }
+    }
+
+.skill-experience-item {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    gap: 10px;
+}
+
+.remove-button {
+    background-color: #ff3333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Style the input boxes */
+.skill-experience-item input,
+.skill-experience-item textarea {
+    flex: 1; /* Distribute available space equally among items */
+    padding: 5px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #282727;
+    outline: none;
+    background: transparent;  
+}
+textarea{
+    border: none;
+    border-bottom: 1px solid #282727;
+    /*outline: none;*/
+    background: transparent; 
+}
